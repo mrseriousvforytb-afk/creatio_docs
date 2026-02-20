@@ -3,3 +3,11 @@ sources/
 crawlers/
 *.js
 package-lock.json
+
+# MkDocs build output
+site/
+
+# Community crawler data
+community/
+community-urls.json
+community-progress.json
