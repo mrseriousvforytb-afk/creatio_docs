@@ -70,7 +70,7 @@ handlers: [
 | `ariaLabel` | `string` | нет | = `caption` | Значение `aria-label` |
 | `layoutConfig` | `LayoutConfig` | нет | — | Позиция в GridContainer |
 
-<details>
+<details markdown>
 <summary><b>color</b></summary>
 
 | Значение | Цвет |
@@ -83,7 +83,7 @@ handlers: [
 
 </details>
 
-<details>
+<details markdown>
 <summary><b>size</b></summary>
 
 | Значение | |
@@ -94,7 +94,7 @@ handlers: [
 
 </details>
 
-<details>
+<details markdown>
 <summary><b>iconPosition</b></summary>
 
 | Значение | |
@@ -106,7 +106,7 @@ handlers: [
 
 </details>
 
-<details>
+<details markdown>
 <summary><b>Доступные иконки</b></summary>
 
 | Иконка | Назначение |
@@ -230,7 +230,7 @@ handlers: [
 
 ---
 
-<details>
+<details markdown>
 <summary><b>Соглашения об именовании</b></summary>
 
 | Что | Паттерн | Пример |

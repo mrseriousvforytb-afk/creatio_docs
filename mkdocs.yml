@@ -46,6 +46,7 @@ markdown_extensions:
       alternate_style: true
   - tables
   - attr_list
+  - md_in_html
   - toc:
       permalink: true
 
@@ -53,4 +54,24 @@ nav:
   - Главная: index.md
   - Элементы UI:
       - Обзор: elements/index.md
-      - crt.Button: elements/button.md
+      - Поля ввода:
+          - crt.Input: elements/input.md
+          - crt.NumberInput: elements/numberinput.md
+          - crt.ComboBox: elements/combobox.md
+          - crt.DateTimePicker: elements/datetimepicker.md
+          - crt.Checkbox: elements/checkbox.md
+      - Кнопки и меню:
+          - crt.Button: elements/button.md
+          - crt.MenuItem: elements/menuitem.md
+      - Контейнеры:
+          - crt.FlexContainer: elements/flexcontainer.md
+          - crt.GridContainer: elements/gridcontainer.md
+          - crt.ExpansionPanel: elements/expansionpanel.md
+          - crt.TabPanel: elements/tabpanel.md
+      - Данные:
+          - crt.DataGrid: elements/datagrid.md
+          - crt.Feed: elements/feed.md
+          - crt.AttachmentList: elements/filelist.md
+      - Отображение:
+          - crt.Label: elements/label.md
+      - Прочие: elements/other.md
